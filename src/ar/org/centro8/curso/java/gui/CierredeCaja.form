@@ -21,45 +21,54 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <Component id="PANELIMPRIMIR" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="Btncargarfacturas" alignment="0" max="32767" attributes="0"/>
-                  <Component id="btnIngresarGastos" alignment="0" max="32767" attributes="0"/>
-                  <Component id="btnImprimir" alignment="0" max="32767" attributes="0"/>
-                  <Component id="btnsalir" alignment="0" max="32767" attributes="0"/>
-                  <Component id="btnNuevoCierre" alignment="1" pref="249" max="32767" attributes="0"/>
-                  <Component id="btncalculartotal" alignment="0" max="32767" attributes="0"/>
-                  <Component id="btnLimpiar" alignment="1" max="32767" attributes="0"/>
-                  <Component id="btncalcularfacturado" alignment="0" max="32767" attributes="0"/>
-                  <Component id="Btncargarfecha" max="32767" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="Btncargarfacturas" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btnIngresarGastos" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btnImprimir" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btnsalir" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btnNuevoCierre" alignment="1" pref="249" max="32767" attributes="0"/>
+                          <Component id="btncalculartotal" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btnLimpiar" alignment="1" max="32767" attributes="0"/>
+                          <Component id="btncalcularfacturado" alignment="0" max="32767" attributes="0"/>
+                          <Component id="Btncargarfecha" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="btnQuitargastos" alignment="0" max="32767" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <Component id="btnNuevoCierre" min="-2" pref="48" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-              <Component id="Btncargarfacturas" min="-2" pref="55" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="Btncargarfecha" min="-2" pref="50" max="-2" attributes="0"/>
+          <Component id="PANELIMPRIMIR" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
               <EmptySpace max="32767" attributes="0"/>
+              <Component id="btnNuevoCierre" min="-2" pref="48" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="Btncargarfacturas" min="-2" pref="55" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="Btncargarfecha" min="-2" pref="50" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="btncalcularfacturado" min="-2" pref="46" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="btnIngresarGastos" min="-2" pref="49" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="btnQuitargastos" min="-2" pref="46" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
               <Component id="btncalculartotal" min="-2" pref="46" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="btnLimpiar" min="-2" pref="48" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
               <Component id="btnImprimir" min="-2" pref="47" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
               <Component id="btnsalir" min="-2" pref="46" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
-          <Component id="PANELIMPRIMIR" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -204,7 +213,7 @@
                   <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
                   <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="tblaFactura" pref="297" max="32767" attributes="0"/>
+                  <Component id="tblaFactura" pref="273" max="32767" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="jLabel2" alignment="1" min="-2" max="-2" attributes="0"/>
@@ -509,6 +518,15 @@
           </SubComponents>
         </Container>
         <Component class="javax.swing.JTextField" name="txtobservacionesdegastos">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder>
+                  <Color PropertyName="color" blue="cc" green="cc" red="cc" type="rgb"/>
+                </LineBorder>
+              </Border>
+            </Property>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lbltitulogastos">
           <Properties>
@@ -562,6 +580,17 @@
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btncalcularfacturadoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnQuitargastos">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Quitar Gastos"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnQuitargastosActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>

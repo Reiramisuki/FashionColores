@@ -800,6 +800,7 @@ public class Facturas extends javax.swing.JInternalFrame {
         VF.setVisible(true);
         VistaFactura.lblLetraFI.setText(cmbLetra.getSelectedItem().toString());
         VistaFactura.lblNumeroFI.setText(lblNumero.getText());
+        VistaFactura.lblFechaFI.setText(lblFecha.getText());
         VistaFactura.lblNombreFI.setText(lblNombre.getText());
         VistaFactura.lblApellidoFI.setText(lblApellido.getText());
         VistaFactura.lblDNIFI.setText(lblDNI.getText());
